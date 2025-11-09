@@ -16,21 +16,3 @@ st.write("""
 
 왼쪽 사이드바에서 보고 싶은 페이지를 선택해주세요.
 """)
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.info("p1: 자기소개서")
-    st.write("나에 대한 소개와 관심사")
-    
-with col2:
-    st.success("p2: 수업시간표")
-    st.write("이번 학기 수업 시간표")
-
-st.markdown("---")
-
-st.subheader("컴퓨팅 탐색")
-st.write("Python과 Streamlit을 활용한 웹 애플리케이션")
-
-st.markdown("---")
-st.caption("2025 Made with Streamlit")
