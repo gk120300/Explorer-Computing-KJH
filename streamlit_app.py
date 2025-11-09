@@ -16,9 +16,8 @@ st.write("""
 
 왼쪽 사이드바에서 보고 싶은 페이지를 선택해주세요.
 """)
+# 사이드바 생성
+st.sidebar.header("Sidebar Menu")
 
-st.info("Ex ch10 p1: 자기소개서")
-st.success("Ex ch10 p2: 수업시간표")
+st.title("컴퓨팅 탐색")
 
-st.markdown("---")
-st.caption("2025 Made with Streamlit")
